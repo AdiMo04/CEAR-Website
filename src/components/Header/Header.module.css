@@ -1,0 +1,48 @@
+/* Header text */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap");
+
+/* pargraph text */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Roboto+Slab:wght@500&family=Source+Sans+Pro&display=swap");
+
+.header {
+  background-color: rgb(20, 28, 38);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 3rem; */
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  /* flex: 0.5; */
+  width: 50%;
+  justify-content: center;
+}
+.content h1 {
+  margin: 1rem;
+}
+.content p {
+  margin: 1rem;
+  font-size: 25px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+}
+.text {
+  font-family: "Roboto Slab", serif;
+  color: rgb(31, 106, 144);
+  font-size: 60px;
+  /* font-family: "Source Sans Pro", sans-serif; */
+}
+
+.illustration {
+  display: flex;
+  /* flex: 0.5; */
+  justify-content: center;
+  /* height: 600px; */
+}
+iframe {
+  border: none;
+  height: 500px;
+  width: 500px;
+}
